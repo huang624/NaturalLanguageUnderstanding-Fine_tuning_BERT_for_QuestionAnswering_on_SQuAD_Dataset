@@ -1,4 +1,4 @@
-# Fine_tuning_BERT_for_QuestionAnswering_on_SQuAD_Dataset
+# Fine tuning BERT for QuestionAnswering on SQuAD Dataset
 
 ## Quick Start
 + colab here:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huang624/NaturalLanguageUnderstanding-Fine_tuning_BERT_for_QuestionAnswering_on_SQuAD_Dataset/blob/main/BERT_for_QuestionAnswering_SQuAD.ipynb)

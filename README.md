@@ -24,7 +24,7 @@ For more information please refer to Paper: <https://arxiv.org/abs/1606.05250>
 
 
 ### Data Cleaning  
-On SQuAD dataset, There is a paragraphs to more questions, and 
+On SQuAD dataset, There is one paragraph to many questions, and one question to many answers.
 
 __using read_data function to split data__
 
@@ -57,6 +57,7 @@ Context = Architecturally, the school has a Catholic character. Atop the Main Bu
 Question = To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France?  
 
 Answer = {'answer_start': 515, 'text': 'Saint Bernadette Soubirous'}  
+
 
 
 

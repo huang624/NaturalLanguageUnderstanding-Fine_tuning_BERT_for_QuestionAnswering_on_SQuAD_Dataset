@@ -1,3 +1,10 @@
+# Demo  
+![2022-04-15 12-52-42](https://user-images.githubusercontent.com/88367016/163521252-3ee267e6-36f6-43af-9ba1-2fcd7fa916f1.gif)  
+![2022-04-15 12-52-10_1](https://user-images.githubusercontent.com/88367016/163522206-1c08ab0c-bf0b-45f0-b5e2-20f2276d70f0.gif)
+![2022-04-15 12-53-01](https://user-images.githubusercontent.com/88367016/163522017-567d8f97-59c6-4fa0-8c7d-2b242abfaa4a.gif)
+
+
+
 # Fine tuning BERT for QuestionAnswering on SQuAD Dataset
 
 ## Quick Start

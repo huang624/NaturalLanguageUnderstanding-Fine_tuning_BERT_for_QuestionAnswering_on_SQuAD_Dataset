@@ -61,7 +61,7 @@ __Answer__ = {'answer_start': 515, 'text': 'Saint Bernadette Soubirous'}
 We need BERT to  predict the start token and end token on question-answering task, so we tokenize the context and question and transform the answer to start token and end token.  
 
 ### Result  
-{__'attention_mask'___: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+{__'attention_mask'__: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
          1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
@@ -83,7 +83,7 @@ We need BERT to  predict the start token and end token on question-answering tas
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0]),  
- __'end_positions'__: tensor(121),  
+ =='end_positions'==: tensor(121),  
  __'input_ids'__: tensor([  101,  6549,  2135,  1010,  1996,  2082,  2038,  1037,  3234,  2839,
           1012, 10234,  1996,  2364,  2311,  1005,  1055,  2751,  8514,  2003,
           1037,  3585,  6231,  1997,  1996,  6261,  2984,  1012,  3202,  1999,
@@ -136,7 +136,7 @@ We need BERT to  predict the start token and end token on question-answering tas
              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
              0,     0]),  
- __'start_positions'__: tensor(114),  
+ <font color="#f00">__'start_positions'__: tensor(114),</font>  
  __'token_type_ids'__: tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,

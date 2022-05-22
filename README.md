@@ -83,7 +83,7 @@ We need BERT to  predict the start token and end token on question-answering tas
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0]),  
- =='end_positions'==: tensor(121),  
+ __'end_positions'__: tensor(121),  
  __'input_ids'__: tensor([  101,  6549,  2135,  1010,  1996,  2082,  2038,  1037,  3234,  2839,
           1012, 10234,  1996,  2364,  2311,  1005,  1055,  2751,  8514,  2003,
           1037,  3585,  6231,  1997,  1996,  6261,  2984,  1012,  3202,  1999,
@@ -136,7 +136,7 @@ We need BERT to  predict the start token and end token on question-answering tas
              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
              0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
              0,     0]),  
- <font color="#f00">__'start_positions'__: tensor(114),</font>  
+ __'start_positions'__: tensor(114),   
  __'token_type_ids'__: tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -158,8 +158,9 @@ We need BERT to  predict the start token and end token on question-answering tas
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-         0, 0, 0, 0, 0, 0, 0, 0])}
+         0, 0, 0, 0, 0, 0, 0, 0])}  
 
+answer = tokenizer.decode(input_ids[start_predicted:end_predicted+1])
 ## Model
 ### Pretrain Model
 ```Python
